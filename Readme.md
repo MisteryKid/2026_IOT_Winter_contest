@@ -30,10 +30,10 @@
 
 상황 2 : 잘못된 뒷꿈치 위치 유지 시
 <p align="center">
-  <img src="./assets/Case2.jpg.jpg" width="80%" />
+  <img src="./assets/Case2.jpg" width="80%" />
 </p>
 
 상황 3 : 잘못된 무릎 위치 유지 시
 <p align="center">
-  <img src="./assets/Case3.jpg.jpg" width="80%" />
+  <img src="./assets/Case3.jpg" width="80%" />
 </p>
