@@ -24,5 +24,5 @@
 
 
 <p align="center">
-  <img src="./assets/올바른 자세" width="80%" />
+  <img src="./assets/Case1.jpg" width="80%" />
 </p>
