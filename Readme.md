@@ -21,5 +21,8 @@
 ## 테스트 진행 
 
 상황 1 : 올바른 자세 유지 시
-![Uploading image.png…]()
 
+
+<p align="center">
+  <img src="./assets/올바른 자세" width="80%" />
+</p>
