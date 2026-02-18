@@ -83,7 +83,20 @@
 
 
 데이터 들어오는 현황 
-<img width="564" height="1298" alt="image" src="https://github.com/user-attachments/assets/2106fe77-ab94-4a56-adb7-bea521631298" />
+<img width="498" height="454" alt="image" src="https://github.com/user-attachments/assets/a953a02c-a020-4131-8ca8-00d91b979911" />
+
+<table table-borderless="true">
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/55a6df79-6902-4ef4-b492-6f2287e4f71b" width="350"/><br>
+      <b>그림 1: 초음파 센서 데이터 </b>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/4ebae87d-773e-40db-b6b0-6f2f03fe5038" width="375"/><br>
+      <b>그림 2: 압력 센서 데이터</b>
+    </td>
+  </tr>
+</table>
 
 
 ## 테스트 진행 
@@ -103,6 +116,7 @@
 <p align="center">
   <img src="./assets/Case3.jpg" width="80%" />
 </p>
+
 
 
 
