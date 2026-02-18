@@ -125,7 +125,7 @@
       <sub><b>발 자세 </b></sub>
     </td>
     <td align="center" width="33%">
-      <img src="https://github.com/user-attachments/assets/460621f7-d23b-48bb-97fb-5bc169a2f937" width="800%"/><br>
+      <img src="https://github.com/user-attachments/assets/460621f7-d23b-48bb-97fb-5bc169a2f937" width="80%"/><br>
       <sub><b>웹 이미지 </b></sub>
     </td>
   </tr>
@@ -162,6 +162,7 @@
 
 
 ## 한계점 
+
 
 
 
