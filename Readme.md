@@ -41,17 +41,42 @@
 
 따라서 본 프로젝트는 실시간 자세 피드백을 통해 고령 운전자의 신체적 한계로 인한 오조작 메커니즘을 사전에 차단하는 것을 목표로 한다.
 
-## 핵심 기능
-- 무릎 거리 센서를 통한 하체 위치 교정 피드백.
-- 압력 센서를 통한 페달 오인 방지 및 뒤꿈치 위치 확인.
-- oneM2M 표준 플랫폼을 활용한 센서 데이터의 안정적인 저장 및 웹 모니터링 연동.
+## 핵심 기능 및 시스템 아키텍
+1. **정밀 하체 자세 모니터링** (무릎 거리 센서)
+- **기능**: 초음파 센서를 활용해 운전자의 무릎과 대시보드 간의 실시간 거리 측정.
+- **효과**: 급브레이크 시 무릎 각도가 부적절하여 발생하는 페달 오 조작을 방지하고, 인체공학적 최적 위치를 벗어날 경우 즉각적인 피드백 제공.
+
+2. **페달 오인 방지 시스템** (압력 센서)
+-**기능**: 페달 주변 발판 및 페달의 압력 분포를 감지하여 뒤꿈치의 위치(축)를 확인.
+-**효과**: 가속 페달과 브레이크 페달 사이의 올바른 뒤꿈치 고정 위치를 유도하여, 당황한 상태에서 페달을 혼동하는 '페달 오인 사고'의 근본적 원인 차단.
+
+3. **oneM2M 기반 데이터 통합 및 관제**
+**기능**: Arduino R4 WiFi를 통해 수집된 센서 데이터를 oneM2M 표준 규격으로 캡슐화하여 플랫폼 전송.
+**효과**: 데이터의 상호운용성을 확보하고, 웹 대시보드를 통해 실시간 운전 자세 모니터링 및 장기적인 운전 습관 데이터 분석 가능.
+
 
 ## 기술 스택 
-- Hardware: Arduino Uno R4 Wi-Fi (내장 Wi-Fi 모듈 활용)
-- Sensors: 초음파 센서(무릎 거리 측정), 압력 센서(뒤꿈치 위치 확인)
-- Platform: oneM2M (Mobius/Ocean) - 국제 표준 사물인터넷 플랫폼 활용
-- Frontend: Vue.js
-- Communication: HTTP/REST API (R4 Wi-Fi <-> oneM2M Server)
+1. Hardware & Sensing
+- Main Controller: Arduino Uno R4 Wi-Fi
+   - 32-bit ARM Cortex-M4 프로세서 기반의 강력한 연산 능력 활용.
+   - 내장 Wi-Fi 모듈을 통해 추가 실드 없이 oneM2M 플랫폼과의 직접적인 HTTP 통신 구현.
+- Sensors: 초음파 센서 (HC-SR04): 운전자의 무릎과 대시보드 간의 실시간 거리 측정 및 최적 운전 자세 이탈 감지.
+- 압력 센서 (FSR): 뒤꿈치의 지지점 및 페달 인근 압력 분포를 감지하여 '페달 오인' 가능성 실시간 모니터링.
+
+2. IoT Platform & Backend
+- Platform: oneM2M (Mobius/Ocean)
+   - 국제 표준 IoT 플랫폼을 활용한 데이터의 상호운용성 확보.
+   - Resource Tree 구조를 설계하여 센서 데이터(Container)와 제어 신호(Content Instance)를 체계적으로 관리.
+- Communication: HTTP/REST API
+   - Arduino와 서버 간의 비동기 통신을 통한 데이터 전송.
+   - 표준 규격에 따른 POST, GET 요청으로 데이터 무결성 유지.
+
+3. Frontend & Visualization
+- Framework: Vue.js
+   - 컴포넌트 기반 설계를 통해 운전 데이터의 실시간 반응형 UI 구현.
+   - Axios 라이브러리를 활용해 Mobius 서버로부터 최신 센서 데이터를 Fetch링하여 시각화.
+
+<img width="830" height="458" alt="image" src="https://github.com/user-attachments/assets/7ddbf5ff-2aae-44e2-96c9-e4ebba9d5eff" />
 
 
 
@@ -74,6 +99,7 @@
 <p align="center">
   <img src="./assets/Case3.jpg" width="80%" />
 </p>
+
 
 
 
