@@ -125,12 +125,14 @@
       <sub><b>발 자세 </b></sub>
     </td>
     <td align="center" width="33%">
-      <img src="https://github.com/user-attachments/assets/460621f7-d23b-48bb-97fb-5bc169a2f937" width="100%"/><br>
+      <img src="https://github.com/user-attachments/assets/460621f7-d23b-48bb-97fb-5bc169a2f937" width="800%"/><br>
       <sub><b>웹 이미지 </b></sub>
     </td>
   </tr>
 </table>
 
+
+상황 2: 잘못된 뒤꿈치 위치
 <table table-borderless="true">
   <tr>
     <td align="center" width="33%">
@@ -138,7 +140,7 @@
       <sub><b>상황 2: 잘못된 뒤꿈치 위치</b></sub>
     </td>
     <td align="center" width="33%">
-      <img src="./assets/Case3.jpg" width="100%"/><br>
+      <img src="https://github.com/user-attachments/assets/ffd574c9-e368-40be-8648-f8fbea286551" width="80%"/><br>
       <sub><b>웹 이미지</b></sub>
     </td>
   </tr>
@@ -151,18 +153,16 @@
       <sub><b>상황 3: 잘못된 무릎 위치</b></sub>
     </td>
     <td align="center" width="33%">
-      <img src="./assets/Case2.jpg" width="100%"/><br>
+      <img src="https://github.com/user-attachments/assets/d8a80c38-a88c-426c-973d-5c76cdf450e6" width="80%"/><br>
       <sub><b>웹 이미지 </b></sub>
     </td>
   </tr>
 </table>
 
 
-<img width="610" height="1092" alt="image" src="https://github.com/user-attachments/assets/460621f7-d23b-48bb-97fb-5bc169a2f937" />
-
-
 
 ## 한계점 
+
 
 
 
