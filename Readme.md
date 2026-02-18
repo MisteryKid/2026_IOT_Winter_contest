@@ -79,6 +79,11 @@
 
 <img width="830" height="458" alt="image" src="https://github.com/user-attachments/assets/7ddbf5ff-2aae-44e2-96c9-e4ebba9d5eff" />
 
+<img width="640" height="464" alt="image" src="https://github.com/user-attachments/assets/714d591a-f862-40e7-a478-31e080679f66" />
+
+
+데이터 들어오는 현황 
+<img width="564" height="1298" alt="image" src="https://github.com/user-attachments/assets/2106fe77-ab94-4a56-adb7-bea521631298" />
 
 
 ## 테스트 진행 
@@ -98,6 +103,7 @@
 <p align="center">
   <img src="./assets/Case3.jpg" width="80%" />
 </p>
+
 
 
 
