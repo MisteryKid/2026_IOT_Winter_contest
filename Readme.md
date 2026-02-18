@@ -77,10 +77,18 @@
    - 컴포넌트 기반 설계를 통해 운전 데이터의 실시간 반응형 UI 구현.
    - Axios 라이브러리를 활용해 Mobius 서버로부터 최신 센서 데이터를 Fetch하여 시각화.
 
-<img width="830" height="458" alt="image" src="https://github.com/user-attachments/assets/7ddbf5ff-2aae-44e2-96c9-e4ebba9d5eff" />
-
-<img width="640" height="464" alt="image" src="https://github.com/user-attachments/assets/714d591a-f862-40e7-a478-31e080679f66" />
-
+<table table-borderless="true">
+  <tr>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/7ddbf5ff-2aae-44e2-96c9-e4ebba9d5eff" height="300"/><br>
+      <b>제품 디자인 예상도 (AI 생성)</b>
+    </td>
+    <td align="center" valign="bottom">
+      <img src="https://github.com/user-attachments/assets/714d591a-f862-40e7-a478-31e080679f66" height="300"/><br>
+      <b> 웹 구상도 (AI 생성)</b>
+    </td>
+  </tr>
+</table>
 
 데이터 들어오는 현황 
 <img width="498" height="454" alt="image" src="https://github.com/user-attachments/assets/a953a02c-a020-4131-8ca8-00d91b979911" />
@@ -101,21 +109,22 @@
 
 ## 테스트 진행 
 
-상황 1 : 올바른 자세 유지 시
-<p align="center">
-  <img src="./assets/Case1.jpg" width="80%" />
-</p>
-
-
-상황 2 : 잘못된 뒷꿈치 위치 유지 시
-<p align="center">
-  <img src="./assets/Case2.jpg" width="80%" />
-</p>
-
-상황 3 : 잘못된 무릎 위치 유지 시
-<p align="center">
-  <img src="./assets/Case3.jpg" width="80%" />
-</p>
+<table table-borderless="true">
+  <tr>
+    <td align="center" width="33%">
+      <img src="./assets/Case1.jpg" width="100%"/><br>
+      <sub><b>상황 1: 올바른 자세</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="./assets/Case2.jpg" width="100%"/><br>
+      <sub><b>상황 2: 잘못된 뒤꿈치 위치</b></sub>
+    </td>
+    <td align="center" width="33%">
+      <img src="./assets/Case3.jpg" width="100%"/><br>
+      <sub><b>상황 3: 잘못된 무릎 위치</b></sub>
+    </td>
+  </tr>
+</table>
 
 
 
